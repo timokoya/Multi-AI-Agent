@@ -113,10 +113,13 @@ crew = Crew(
 
 result = crew.kickoff(inputs={"topic": "Artificial Intelligence"})
 
+#from IPython.display import Markdown
+#Markdown(result)
 print(result)
 
 topic = "YOUR TOPIC HERE"
 result = crew.kickoff(inputs={"topic": topic})
 
+#Markdown(result)
 print(result)
 
